@@ -9,3 +9,4 @@ The CPU Scheduling is the process by which a process is executed by the using th
 ## First-Come, First-Served (FCFS)
 First Come First Serve CPU Scheduling Algorithm, the CPU allots the resources to the process in a certain order. The order is serial way. The CPU is allotted to the process in which it has occurred.<br>
 -First Serve CPU Scheduling Algorithm follows First In First Out in Ready Queue.
+## Shortest Job First (SJF)
