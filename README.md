@@ -12,3 +12,4 @@ First Come First Serve CPU Scheduling Algorithm, the CPU allots the resources to
 ## Shortest Job First (SJF)
 Shortest Job is heavily dependent on the Burst Times. Every CPU Scheduling Algorithm is basically dependent on the Arrival Times. Here, in this Shortest Job First CPU Scheduling Algorithm, the CPU allots its resources to the process which is in ready queue and the process which has least Burst Time.
 ## Priority Scheduling 
+In Priority scheduling, there is a priority number assigned to each process. In some systems, the lower the number, the higher the priority. While, in the others, the higher the number, the higher will be the priority. The Process with the higher priority among the available processes is given the CPU.
