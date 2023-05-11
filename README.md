@@ -20,4 +20,4 @@ Each algorithm supports a different process, but in a general system, some proce
 In a Multilevel Queue Scheduling system, processes are assigned to one of the several queues, based on the priority or other criteria, and each queue is assigned a different priority. The processes in each queue are scheduled using a different scheduling algorithm that is appropriate for the characteristics of the processes in that queue.
 ## Reference
 https://www.geeksforgeeks.org/ <br>
-https://javatpoint.com/
+https://javatpoint.com/ <br>
