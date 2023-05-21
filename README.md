@@ -20,7 +20,11 @@ Each algorithm supports a different process, but in a general system, some proce
 In a Multilevel Queue Scheduling system, processes are assigned to one of the several queues, based on the priority or other criteria, and each queue is assigned a different priority. The processes in each queue are scheduled using a different scheduling algorithm that is appropriate for the characteristics of the processes in that queue.
 
 # Deadlock Avoidance algothms
+In deadlock avoidance, the request for any resource will be granted if the resulting state of the system doesn't cause deadlock in the system.The state of the system will continuously be checked for safe and unsafe states.
 
+In order to avoid deadlocks, the process must tell OS, the maximum number of resources a process can request to complete its execution.
+<br>
+* Banker's Algorithm:
 
 
 ## Reference
