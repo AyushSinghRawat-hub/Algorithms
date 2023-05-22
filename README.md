@@ -1,5 +1,6 @@
 # CPU-scheduling-algorithms
-The CPU Scheduling is the process by which a process is executed by the using the resources of the CPU. The process also can wait due to the absence or unavailability of the resources. These processes make the complete use of Central Processing Unit.CPU scheduling algorithms are used by operating systems to allocate CPU time to processes.<br>
+The CPU Scheduling is the process by which a process is executed by the using the resources of the CPU. The process also can wait due to the absence or unavailability of the resources. These processes make the complete use of Central Processing Unit.
+<b>CPU scheduling algorithms are used by operating systems to allocate CPU time to processes.<br>
  <b>Some common CPU scheduling algorithms are:</b><br>
 * First-Come, First-Served (FCFS)<br>
 * Shortest Job First (SJF)<br>
