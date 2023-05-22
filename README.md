@@ -25,7 +25,7 @@ In deadlock avoidance, the request for any resource will be granted if the resul
 In order to avoid deadlocks, the process must tell OS, the maximum number of resources a process can request to complete its execution.
 <br>
 * Banker's Algorithm:
-
+It is a banker algorithm used to avoid deadlock and allocate resources safely to each process in the computer system. The 'S-State' examines all possible tests or activities before deciding whether the allocation should be allowed to each process. It also helps the operating system to successfully share the resources between all the processes. The banker's algorithm is named because it checks whether a person should be sanctioned a loan amount or not to help the bank system safely simulate allocation resources. In this section, we will learn the Banker's Algorithm in detail. Also, we will solve problems based on the Banker's Algorithm.
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
