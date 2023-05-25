@@ -29,6 +29,9 @@ In order to avoid deadlocks, the process must tell OS, the maximum number of res
 * Banker's Algorithm:
 It is a banker algorithm used to avoid deadlock and allocate resources safely to each process in the computer system. The 'S-State' examines all possible tests or activities before deciding whether the allocation should be allowed to each process. It also helps the operating system to successfully share the resources between all the processes. <br>
 The banker's algorithm is named because it checks whether a person should be sanctioned a loan amount or not to help the bank system safely simulate allocation resources.
+* Wait-Die Algorithm 
+The Wait-Die algorithm is a deadlock avoidance algorithm that uses timestamps to manage resource allocation. It ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. The algorithm prevents deadlock by allowing younger processes to wait for older processes but granting access to older processes immediately.
+
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
