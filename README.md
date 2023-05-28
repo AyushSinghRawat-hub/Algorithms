@@ -32,7 +32,21 @@ The banker's algorithm is named because it checks whether a person should be san
 * Wait-Die Algorithm 
 The Wait-Die algorithm is a deadlock avoidance algorithm that uses timestamps to manage resource allocation. It ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. The algorithm prevents deadlock by allowing younger processes to wait for older processes but granting access to older processes immediately.
 * Wound-Wait Algorithm
-The Wound-Wait algorithm is another deadlock avoidance algorithm that uses timestamps to manage resource allocation. Similar to the Wait-Die algorithm, it ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. However, in the Wound-Wait algorithm, if a younger process is denied access to a resource, it "wounds" (preempts) the older process holding the resource, allowing the younger process to proceed.
+The Wound-Wait algorithm is another deadlock avoidance algorithm that uses timestamps to manage resource allocation. Similar to the Wait-Die algorithm, it ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. However, in the Wound-Wait algorithm, if a younger process is denied access to a resource, it "wounds" (preempts) the older process holding the resource, allowing the younger process to proceed.<br>
+Here's an explanation of the Wound-Wait algorithm:<br>
+1. Each process is assigned a unique timestamp, representing its age or order of arrival.<br>
+
+2. When a process requests a resource, the algorithm compares the timestamps of the requesting process and the process holding the resource.
+
+3. If the requesting process has a lower timestamp (younger), it indicates that it arrived later than the process holding the resource. In this case:
+   - The requesting process "wounds" (preempts) the older process by forcefully taking the resource.
+   - The older process is put into a waiting state.
+
+4. If the requesting process has a higher timestamp (older), it indicates that it arrived earlier than the process holding the resource. In this case:
+   - The requesting process is allowed to proceed, as it is older and has higher priority.
+   - The process can access the requested resource.
+
+5. When a process releases a resource, the algorithm checks if any wounded process is waiting for that resource. If found, the wounded process is granted access to the resource.
 
 
 ## Reference
