@@ -33,6 +33,7 @@ The banker's algorithm is named because it checks whether a person should be san
 The Wait-Die algorithm is a deadlock avoidance algorithm that uses timestamps to manage resource allocation. It ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. The algorithm prevents deadlock by allowing younger processes to wait for older processes but granting access to older processes immediately.
 * Wound-Wait Algorithm
 
+
 ## Reference
 https://www.geeksforgeeks.org/ <br>
 https://javatpoint.com/ <br>
