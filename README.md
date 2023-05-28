@@ -26,14 +26,14 @@ In deadlock avoidance, the request for any resource will be granted if the resul
 
 In order to avoid deadlocks, the process must tell OS, the maximum number of resources a process can request to complete its execution.
 <br>
-* Banker's Algorithm
+* <b>Banker's Algorithm </b>
 It is a banker algorithm used to avoid deadlock and allocate resources safely to each process in the computer system. The 'S-State' examines all possible tests or activities before deciding whether the allocation should be allowed to each process. It also helps the operating system to successfully share the resources between all the processes. <br>
 The banker's algorithm is named because it checks whether a person should be sanctioned a loan amount or not to help the bank system safely simulate allocation resources.
-* Wait-Die Algorithm 
+* <b>Wait-Die Algorithm</b>
 The Wait-Die algorithm is a deadlock avoidance algorithm that uses timestamps to manage resource allocation. It ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. The algorithm prevents deadlock by allowing younger processes to wait for older processes but granting access to older processes immediately.
-* Wound-Wait Algorithm
+* <b>Wound-Wait Algorithm</b>
 The Wound-Wait algorithm is another deadlock avoidance algorithm that uses timestamps to manage resource allocation. Similar to the Wait-Die algorithm, it ensures that a process requesting a resource will either wait or be granted access based on the timestamp comparison with the processes currently holding the resource. However, in the Wound-Wait algorithm, if a younger process is denied access to a resource, it "wounds" (preempts) the older process holding the resource, allowing the younger process to proceed.<br>
-Here's an explanation of the Wound-Wait algorithm:<br>
+<br>Here's an explanation of the Wound-Wait algorithm:<br>
 1. Each process is assigned a unique timestamp, representing its age or order of arrival.<br>
 
 2. When a process requests a resource, the algorithm compares the timestamps of the requesting process and the process holding the resource.
