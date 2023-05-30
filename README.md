@@ -49,6 +49,7 @@ The Wound-Wait algorithm is another deadlock avoidance algorithm that uses times
 5. When a process releases a resource, the algorithm checks if any wounded process is waiting for that resource. If found, the wounded process is granted access to the resource.
 
 # Graph traversal algorithms
+##Breadth-First Search (BFS):
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
