@@ -50,6 +50,15 @@ The Wound-Wait algorithm is another deadlock avoidance algorithm that uses times
 
 # Graph traversal algorithms
 ## Breadth-First Search (BFS):
+Algorithm of Breadth-First Search:
+Step 1: Consider the graph you want to navigate.<br>
+Step 2: Select any vertex in your graph (say v1), from which you want to traverse the graph.<br>
+Step 3: Utilize the following two data structures for traversing the graph.<br>
+Visited array(size of the graph)<br>
+Queue data structure<br>
+Step 4: Add the starting vertex to the visited array, and afterward, you add v1’s adjacent vertices to the queue data structure.<br>
+Step 5: Now using the FIFO concept, remove the first element from the queue, put it into the visited array, and then add the adjacent vertices of the removed element to the queue.<br>
+Step 6: Repeat step 5 until the queue is not empty and no vertex is left to be visited.<br>
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
