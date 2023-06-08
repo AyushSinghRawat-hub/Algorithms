@@ -67,12 +67,12 @@ Because of the recursive nature, stack data structure can be used to implement t
 
 The step by step process to implement the DFS traversal is given as follows -
 
-First, create a stack with the total number of vertices in the graph.<br>
-Now, choose any vertex as the starting point of traversal, and push that vertex into the stack.<br>
-After that, push a non-visited vertex (adjacent to the vertex on the top of the stack) to the top of the stack.<br>
-Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.<br>
-If no vertex is left, go back and pop a vertex from the stack.<br>
-Repeat steps 2, 3, and 4 until the stack is empty.<br>
+Step 1: First, create a stack with the total number of vertices in the graph.<br>
+Step 2: Now, choose any vertex as the starting point of traversal, and push that vertex into the stack.<br>
+Step 3: After that, push a non-visited vertex (adjacent to the vertex on the top of the stack) to the top of the stack.<br>
+Step 4: Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.<br>
+Step 5: If no vertex is left, go back and pop a vertex from the stack.<br>
+Step 6: Repeat steps 2, 3, and 4 until the stack is empty.<br>
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
