@@ -5,7 +5,7 @@ CPU scheduling algorithms are used by operating systems to allocate CPU time to 
  <b>Some common CPU scheduling algorithms are:</b><br>
 * First-Come, First-Served (FCFS)<br>
 * Shortest Job First (SJF)<br>
-* Priority Scheduling<br> 
+* Priority Scheduling<br>  
 * Round Robin (RR)<br>
 * Multilevel Queue Scheduling<br>
 ## First-Come, First-Served (FCFS)
