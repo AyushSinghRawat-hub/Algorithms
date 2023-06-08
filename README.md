@@ -49,7 +49,7 @@ The Wound-Wait algorithm is another deadlock avoidance algorithm that uses times
 5. When a process releases a resource, the algorithm checks if any wounded process is waiting for that resource. If found, the wounded process is granted access to the resource.
 
 # Graph traversal algorithms
-## Breadth-First Search (BFS):
+## Breadth-First Search (BFS)
 Algorithm of Breadth-First Search:
 Step 1: Consider the graph you want to navigate.<br>
 Step 2: Select any vertex in your graph (say v1), from which you want to traverse the graph.<br>
@@ -73,6 +73,9 @@ Step 3: After that, push a non-visited vertex (adjacent to the vertex on the top
 Step 4: Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.<br>
 Step 5: If no vertex is left, go back and pop a vertex from the stack.<br>
 Step 6: Repeat steps 2, 3, and 4 until the stack is empty.<br>
+
+## Dijkstra's Algorithm
+
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
