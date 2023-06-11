@@ -75,7 +75,7 @@ Step 5: If no vertex is left, go back and pop a vertex from the stack.<br>
 Step 6: Repeat steps 2, 3, and 4 until the stack is empty.<br>
 
 ## Dijkstra's Algorithm
-
+Dijkstra's Algorithm:
 
 ## Reference
 https://www.geeksforgeeks.org/ <br>
